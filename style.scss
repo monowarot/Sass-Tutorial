@@ -1,0 +1,18 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+$primaryColor: green;
+$bodyFontSize: 20px;
+$textColor: red;
+h2 {
+    color: $primaryColor;
+    font-size: $bodyFontSize;
+    text-decoration: underline;
+}
+
+p {
+    color: $textColor;
+}
